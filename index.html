@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>notify</title>
+    <style>
+        .test {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            height: 100px;
+            margin-top: 400px;
+        }
+
+        a {
+            display: inline-block;
+            width: 100px;
+            height: 30px;
+            padding: 10px;
+            line-height: 30px;
+            background: #555;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="test">
+        <a class="success-demo" onclick="success()">success</a>
+        <a class="warning-demo" onclick="warning()">warning</a>
+        <a class="danger-demo" onclick="danger()">danger</a>
+        <a class="info-demo" onclick="info()">info</a>
+    </div>
+    <script src="notify.js"></script>
+    <script>
+        function success() {
+            notify.alert(1, '成功提示', 1.5);
+        }
+        function warning() {
+            notify.alert(2, '警告提示', 1.5);
+        }
+        function danger() {
+            notify.alert(3, '危險提示', 1.5);
+        }
+        function info() {
+            notify.alert(4, '內容提示', 1.5);
+        }
+
+    </script>
+</body>
+
+</html>
