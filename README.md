@@ -1,3 +1,3 @@
 # notify.js
-一個簡單的頂部提示組件。
+一个简单的顶部提示组件。
 DEMO: http://blog.yongyuan.us/notify.js/
