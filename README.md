@@ -21,4 +21,4 @@ notify.alert(4, '正常提示', 1.5);
 
 #### DEMO
 
-http://dyygtfx.github.io/notify.js/
+http://go7hic.github.io/notify.js/
